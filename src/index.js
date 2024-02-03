@@ -25,18 +25,18 @@ const material_area = new THREE.MeshPhongMaterial({ color: 0xffffff });
 const area = new THREE.Mesh(geometry_area, material_area);
 scene.add(area);
 
-const geometry = new THREE.BoxGeometry(1, 1, 1);
+const geometry = new THREE.BoxGeometry(5, 5, 5);
 const material = new THREE.MeshPhongMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
-const geometry_cyl = new THREE.CylinderGeometry(5, 5, 20, 32);
+const geometry_cyl = new THREE.CylinderGeometry(5, 5, 10, 20);
 const material_cyl = new THREE.MeshPhongMaterial({ color: 0xffff00 });
 const cylinder = new THREE.Mesh(geometry_cyl, material_cyl);
 scene.add(cylinder);
 cylinder.position.set(20, 5, 0);
 
-const geometry_cone = new THREE.ConeGeometry(5, 20, 32);
+const geometry_cone = new THREE.ConeGeometry(5, 10, 20);
 const material_cone = new THREE.MeshPhongMaterial({ color: 0x1be3ef });
 const cone = new THREE.Mesh(geometry_cone, material_cone);
 scene.add(cone);
