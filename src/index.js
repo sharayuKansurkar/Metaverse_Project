@@ -3,7 +3,7 @@ import polygon from "./web3.jseb3.js";
 import abi from "./abi/metaverse.json" assert { type: "json" };
 
 const scene = new THREE.Scene();
-//Contract Address = 0x9647D18bFd52F007F382804910A887c580E4f083
+//Contract Address = 0x54BCC0347030941C9F412D92E7A2F12d182475d4
 //scene.background = new THREE.Color(0xf1ed11);
 const camera = new THREE.PerspectiveCamera(
   75,
